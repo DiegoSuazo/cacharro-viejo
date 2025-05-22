@@ -1,0 +1,55 @@
+/* Fondo y tipografia */
+body {
+  background-color: #f4f4f9;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Colores titulos */
+h1,
+h3,
+h4 {
+  color: #4b0082;
+}
+
+/*para la imagen del automóvil */
+.car-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el formulario */
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Separación entre el botón/checkbox y su texto */
+.form-check-label {
+  margin-left: 5px;
+}
+
+/* Efecto hover para el botón */
+button.btn-primary {
+  background-color: #6a0dad;
+  border-color: #6a0dad;
+}
+
+/* Efecto hover para el botón */
+button.btn-primary:hover {
+  background-color: #4b0082;
+  border-color: #4b0082;
+}
+
+/* Estilo para footer */
+footer {
+  background-color: #4b0082;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+}
